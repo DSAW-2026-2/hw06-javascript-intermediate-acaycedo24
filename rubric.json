@@ -1,0 +1,31 @@
+{
+  "name": "HW06 — JavaScript Intermediate",
+  "homeworkNumber": 6,
+  "structure": {
+    "maxPoints": 20,
+    "requiredFiles": [
+      { "path": "index.html", "description": "Filterable list UI", "points": 6 },
+      { "path": "REFLECTION.md", "description": "Written explanation of why reduce is more powerful than forEach for a specific operation", "points": 6 }
+    ],
+    "requiredFolders": []
+  },
+  "quality": {
+    "maxPoints": 20,
+    "checks": ["eslint"]
+  },
+  "deployment": {
+    "maxPoints": 20,
+    "type": "github-pages"
+  },
+  "acceptance": {
+    "maxPoints": 40,
+    "sourcePaths": ["index.html", "REFLECTION.md"],
+    "criteria": [
+      "The dataset contains at least 20 items with at least 3 filterable properties, loaded from a JS object or JSON file — not hardcoded as HTML",
+      "Array methods map, filter, and reduce are each used at least once in the JavaScript code — not replaced with for loops",
+      "A real-time search input filters the displayed items as the user types, with no need to press a button",
+      "The user can filter items by at least 3 different properties (e.g., category, date, status) with visible filter controls",
+      "REFLECTION.md contains a specific, technically correct explanation of why reduce was more appropriate than forEach for at least one operation the student implemented"
+    ]
+  }
+}
